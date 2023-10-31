@@ -5,7 +5,7 @@ import pprint
 import pymongo as pym
 
 client = pym.MongoClient(
-    "mongodb+srv://italovskii:!Coxinha123@bank.pnzxkau.mongodb.net/?retryWrites=true&w=majority")
+    "mongodb+srv://italovskii:<password>@bank.pnzxkau.mongodb.net/?retryWrites=true&w=majority")
 
 db = client.bank
 collection = db.bank_collection
